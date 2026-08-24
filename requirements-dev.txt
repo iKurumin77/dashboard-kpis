@@ -1,0 +1,5 @@
+# Herramientas necesarias solo para generar el .exe y el instalador,
+# no se necesitan para usar la app.
+-r requirements.txt
+pyinstaller>=6.0
+Pillow>=10.0

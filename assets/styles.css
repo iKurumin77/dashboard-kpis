@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap');
+:root{
+  --bg: #0f1720; /* dark navy */
+  --bg-light: #f6f7fb; /* light background */
+  --surface: #0f1728;
+  --card: #0b1220;
+  --muted: #9aa4b2;
+  --text: #e6eef8;
+  --accent: #7c5cff; /* purple accent */
+  --positive: #22c55e;
+  --negative: #fb7047;
+  --glass: rgba(255,255,255,0.03);
+}
+
+/* Global font */
+html, body, [class^="css"], .stApp {
+  font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+}
+
+/* App background */
+body {
+  background: var(--bg);
+}
+
+/* Sidebar */
+.sidebar .block-container {
+  padding-top: 1.5rem;
+  background: linear-gradient(180deg, rgba(255,255,255,0.02), transparent);
+}
+
+/* Card styles */
+.kpi-cards { display:flex; gap:16px; }
+.kpi-card {
+  background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+  border-radius: 12px;
+  padding: 18px;
+  box-shadow: 0 6px 18px rgba(2,6,23,0.6);
+  min-width: 200px;
+  flex:1 1 0;
+  opacity: 0;
+  transform: translateY(8px);
+  transition: transform 420ms cubic-bezier(.2,.8,.2,1), opacity 420ms ease;
+}
+.kpi-title { color: var(--muted); font-size: 13px; margin-bottom: 6px; }
+.kpi-value { color: var(--text); font-size: 28px; font-weight:700; }
+.kpi-delta { font-size:13px; margin-left:8px; }
+.delta-up { color: var(--positive); }
+.delta-down { color: var(--negative); }
+
+/* Plot container tweaks */
+.plotly-graph-div { background: transparent !important; }
+
+/* Small helpers */
+.app-header { display:flex; align-items:center; gap:12px; }
+.logo { width:42px; height:42px; border-radius:8px; background:var(--accent); display:inline-block; }
+.brand { color:var(--text); font-weight:700; font-size:18px; }
+
+/* Loaded state to trigger transitions */
+.kpi-card.loaded { opacity:1; transform: translateY(0); }
+
+/* Simple numeric counter style */
+.kpi-value { transition: color 200ms ease; }
+
+/* Custom spinner overlay */
+.spinner-overlay { display:flex; align-items:center; gap:12px; justify-content:center; padding:18px; }
+.spinner-dot { width:12px; height:12px; background:var(--accent); border-radius:50%; animation: spinPulse 1s infinite ease-in-out; }
+@keyframes spinPulse { 0%{ transform: scale(0.6); opacity:.6 } 50%{ transform: scale(1.2); opacity:1 } 100%{ transform: scale(0.6); opacity:.6 } }
+
+/* Plot transition */
+.plotly-graph-div { transition: opacity 360ms ease; opacity: 0; }
+.plotly-graph-div.loaded { opacity: 1; }
+
+/* Light mode overrides */
+.light-mode :root { --bg: var(--bg-light); --text: #0b1020; --card: #ffffff; --glass: rgba(11,16,32,0.03); }
+
+/* Responsive */
+@media (max-width: 800px){
+  .kpi-cards { flex-direction:column; }
+}

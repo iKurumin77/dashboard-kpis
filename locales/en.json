@@ -1,0 +1,128 @@
+{
+  "app": {
+    "titulo": "KPI Dashboard"
+  },
+  "sidebar": {
+    "titulo": "Settings",
+    "seleccionar_idioma": "Select language",
+    "modo_oscuro": "Dark mode",
+    "intervalo_refresco": "Refresh interval (minutes)",
+    "intervalo_refresco_help": "The dashboard will reload data automatically every X minutes.",
+    "actualizar_ahora": "Refresh now"
+  },
+  "tabs": {
+    "ventas": "Sales",
+    "inventario": "Inventory",
+    "productividad": "Productivity"
+  },
+  "filtros": {
+    "titulo": "General filters",
+    "fecha_inicio": "Start date",
+    "fecha_fin": "End date",
+    "vendedor": "Salesperson",
+    "producto": "Product",
+    "empleado": "Employee"
+  },
+  "ventas": {
+    "total_periodo": "Total for period",
+    "comparacion_periodo": "Comparison vs previous period",
+    "ventas_por_vendedor": "Sales by salesperson",
+    "ventas_por_producto": "Sales by product",
+    "tendencia_diaria": "Daily trend"
+  },
+  "inventario": {
+    "titulo": "Inventory",
+    "stock_actual": "Current stock by product",
+    "productos_bajo_stock": "Products low in stock",
+    "rotacion": "Inventory turnover",
+    "alerta_bajo_stock": "There are products below the minimum threshold of {umbral} units."
+  },
+  "productividad": {
+    "pedidos_completados": "Completed orders",
+    "tiempo_promedio": "Average processing time",
+    "comparacion_periodo": "Period comparison",
+    "pedidos_por_empleado": "Orders by employee",
+    "minutos": "min"
+  },
+  "exportar": {
+    "titulo": "Export view",
+    "a_excel": "Export to Excel",
+    "a_pdf": "Export to PDF",
+    "resumen": "Dashboard summary"
+  },
+  "mensajes": {
+    "cargando": "Loading...",
+    "sin_datos": "No data available.",
+    "ruta_no_encontrada": "Data path not found: {ruta}",
+    "uploads_no_data": "Some uploaded data is configured but no data could be loaded. Starting fresh.",
+    "error_ventas": "Unable to load sales data.",
+    "error_inventario": "Unable to load inventory data.",
+    "error_productividad": "Unable to load productivity data."
+  }
+
+  ,"onboarding": {
+    "bienvenida": "👋 Welcome! To start, upload your first sales file.",
+    "instruccion": "Drag an Excel (.xlsx) or CSV file here to begin. You can also try the example data.",
+    "usar_ejemplo": "Don't have a file? Try example data"
+  },
+  "uploader": {
+    "prompt": "📂 Drag your Excel file here or click to select",
+    "select_tipo": "What type of data is this file?",
+    "map_instruccion": "If we couldn't find expected columns, tell us which column matches:",
+    "map_field": "Select the column that corresponds to '{field}'"
+  },
+  "actions": {
+    "processing": "Processing your file... this may take a few seconds",
+    "upload_confirm": "Confirm and upload",
+    "upload_success": "File uploaded successfully",
+    "reset": "Upload another file",
+    "restart": "🔄 Restart application",
+    "restarting": "🔄 Restarting upload..."
+  },
+  "errores": {
+    "file_invalid": "This file couldn't be opened. Please verify it's a valid Excel (.xlsx) or CSV file.",
+    "missing_column": "We couldn't find a required column. Use the mapping helper to indicate it.",
+    "unhandled_title": "Something went wrong",
+    "unhandled_message": "An unexpected error occurred. You can restart the app or try again. If the problem continues, contact support."
+  }
+  ,
+  "empresa": {
+    "nombre": "Company name",
+    "logo": "Logo"
+  },
+  "alertas": {
+    "stock_minimo": "Minimum stock"
+  },
+  "fuente_datos": {
+    "tipo": "Source type",
+    "ruta": "Data path",
+    "sqlite": "SQLite"
+  },
+  "refresco": {
+    "intervalo_minutos": "Interval (minutes)"
+  },
+  "idioma": "Language",
+  "idioma_default": "en",
+  "theme": "Theme",
+  "uploads": "Uploads",
+  "ventas_df": "ventas_df",
+  "inventario_df": "inventario_df",
+  "productividad_df": "productividad_df",
+  "valor": "Value",
+  "delta": "Delta",
+  "inf": "∞",
+  "Arial": "Arial",
+  "use_example_data": "Use example data",
+  ".": "."
+  ,
+  "empleado": "Employee",
+  "fecha_inicio": "Start date",
+  "fecha_fin": "End date",
+  "intervalo_minutos": "Interval (minutes)",
+  "logo": "Logo",
+  "nombre": "Name",
+  "ruta": "Path",
+  "sqlite": "SQLite",
+  "stock_minimo": "Minimum stock",
+  "tipo": "Type"
+}

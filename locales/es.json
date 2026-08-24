@@ -1,0 +1,127 @@
+{
+  "app": {
+    "titulo": "Panel de Control de KPIs"
+  },
+  "sidebar": {
+    "titulo": "Configuración",
+    "seleccionar_idioma": "Seleccionar idioma",
+    "modo_oscuro": "Modo oscuro",
+    "intervalo_refresco": "Intervalo de refresco (minutos)",
+    "intervalo_refresco_help": "El dashboard recargará los datos automáticamente cada X minutos.",
+    "actualizar_ahora": "Actualizar ahora"
+  },
+  "tabs": {
+    "ventas": "Ventas",
+    "inventario": "Inventario",
+    "productividad": "Productividad"
+  },
+  "filtros": {
+    "titulo": "Filtros generales",
+    "fecha_inicio": "Fecha inicio",
+    "fecha_fin": "Fecha fin",
+    "vendedor": "Vendedor",
+    "producto": "Producto",
+    "empleado": "Empleado"
+  },
+  "ventas": {
+    "total_periodo": "Total del período",
+    "comparacion_periodo": "Comparación vs período anterior",
+    "ventas_por_vendedor": "Ventas por vendedor",
+    "ventas_por_producto": "Ventas por producto",
+    "tendencia_diaria": "Tendencia diaria"
+  },
+  "inventario": {
+    "titulo": "Inventario",
+    "stock_actual": "Stock actual por producto",
+    "productos_bajo_stock": "Productos con stock bajo",
+    "rotacion": "Rotación de inventario",
+    "alerta_bajo_stock": "Hay productos con stock por debajo del mínimo de {umbral} unidades."
+  },
+  "productividad": {
+    "pedidos_completados": "Pedidos completados",
+    "tiempo_promedio": "Tiempo promedio de proceso",
+    "comparacion_periodo": "Comparación entre períodos",
+    "pedidos_por_empleado": "Pedidos por empleado",
+    "minutos": "min"
+  },
+  "exportar": {
+    "titulo": "Exportar vista",
+    "a_excel": "Exportar a Excel",
+    "a_pdf": "Exportar a PDF",
+    "resumen": "Resumen del dashboard"
+  },
+  "mensajes": {
+    "cargando": "Cargando...",
+    "sin_datos": "No hay datos para mostrar.",
+    "ruta_no_encontrada": "No se encontró la ruta de datos: {ruta}",
+    "uploads_no_data": "Había datos cargados guardados, pero no se pudieron recuperar. Reiniciando la carga.",
+    "error_ventas": "No se pudo cargar los datos de ventas.",
+    "error_inventario": "No se pudo cargar los datos de inventario.",
+    "error_productividad": "No se pudo cargar los datos de productividad."
+  }
+  ,"onboarding": {
+    "bienvenida": "👋 ¡Bienvenido! Para empezar, sube tu primer archivo de ventas.",
+    "instruccion": "Arrastra un archivo Excel (.xlsx) o CSV aquí para comenzar. También puedes usar los datos de ejemplo.",
+    "usar_ejemplo": "¿No tienes un archivo a mano? Prueba con datos de ejemplo"
+  },
+  "uploader": {
+    "prompt": "📂 Arrastra tu archivo de Excel aquí o haz clic para seleccionarlo",
+    "select_tipo": "¿Qué tipo de datos contiene este archivo?",
+    "map_instruccion": "Si no encontramos las columnas esperadas, indícanos a qué corresponde cada una:",
+    "map_field": "Selecciona la columna que corresponde a '{field}'"
+  },
+  "actions": {
+    "processing": "Procesando tu archivo... esto puede tardar unos segundos",
+    "upload_confirm": "Confirmar y cargar",
+    "upload_success": "Archivo cargado correctamente",
+    "reset": "Cargar otro archivo",
+    "restart": "🔄 Reiniciar aplicación",
+    "restarting": "🔄 Reiniciando carga..."
+  },
+  "errores": {
+    "file_invalid": "Este archivo no pudo abrirse correctamente. Verifica que sea un Excel (.xlsx) o CSV válido.",
+    "missing_column": "No encontramos una columna necesaria en tu archivo. Usa el emparejador para indicarla.",
+    "unhandled_title": "Algo salió mal",
+    "unhandled_message": "Ocurrió un error inesperado. Puedes reiniciar la aplicación o intentarlo de nuevo. Si el problema persiste, contacta con soporte."
+  }
+  ,
+  "empresa": {
+    "nombre": "Nombre de la empresa",
+    "logo": "Logo"
+  },
+  "alertas": {
+    "stock_minimo": "Stock mínimo"
+  },
+  "fuente_datos": {
+    "tipo": "Tipo de origen",
+    "ruta": "Ruta de datos",
+    "sqlite": "SQLite"
+  },
+  "refresco": {
+    "intervalo_minutos": "Intervalo (minutos)"
+  },
+  "idioma": "Idioma",
+  "idioma_default": "es",
+  "theme": "Tema",
+  "uploads": "Cargas",
+  "ventas_df": "ventas_df",
+  "inventario_df": "inventario_df",
+  "productividad_df": "productividad_df",
+  "valor": "Valor",
+  "delta": "Delta",
+  "inf": "∞",
+  "Arial": "Arial",
+  "use_example_data": "Usar datos de ejemplo",
+  ".": "."
+  ,
+  "empleado": "Empleado",
+  "fecha_inicio": "Fecha inicio",
+  "fecha_fin": "Fecha fin",
+  "intervalo_minutos": "Intervalo (minutos)",
+  "logo": "Logo",
+  "nombre": "Nombre",
+  "ruta": "Ruta",
+  "sqlite": "SQLite",
+  "stock_minimo": "Stock mínimo",
+  "tipo": "Tipo"
+}

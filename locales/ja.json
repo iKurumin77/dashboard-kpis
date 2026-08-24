@@ -1,0 +1,128 @@
+{
+  "app": {
+    "titulo": "KPI ダッシュボード"
+  },
+  "sidebar": {
+    "titulo": "設定",
+    "seleccionar_idioma": "言語を選択",
+    "modo_oscuro": "ダークモード",
+    "intervalo_refresco": "更新間隔（分）",
+    "intervalo_refresco_help": "ダッシュボードは指定した分ごとに自動的にデータを更新します。",
+    "actualizar_ahora": "今すぐ更新"
+  },
+  "tabs": {
+    "ventas": "売上",
+    "inventario": "在庫",
+    "productividad": "生産性"
+  },
+  "filtros": {
+    "titulo": "一般フィルター",
+    "fecha_inicio": "開始日",
+    "fecha_fin": "終了日",
+    "vendedor": "販売員",
+    "producto": "製品",
+    "empleado": "従業員"
+  },
+  "ventas": {
+    "total_periodo": "期間合計",
+    "comparacion_periodo": "前期間との比較",
+    "ventas_por_vendedor": "販売員別売上",
+    "ventas_por_producto": "製品別売上",
+    "tendencia_diaria": "日次推移"
+  },
+  "inventario": {
+    "titulo": "在庫",
+    "stock_actual": "製品別現在在庫",
+    "productos_bajo_stock": "在庫不足製品",
+    "rotacion": "在庫回転率",
+    "alerta_bajo_stock": "{umbral}単位未満の在庫がある製品があります。"
+  },
+  "productividad": {
+    "pedidos_completados": "完了した注文数",
+    "tiempo_promedio": "平均処理時間",
+    "comparacion_periodo": "期間比較",
+    "pedidos_por_empleado": "従業員別注文数",
+    "minutos": "分"
+  },
+  "exportar": {
+    "titulo": "ビューをエクスポート",
+    "a_excel": "Excelにエクスポート",
+    "a_pdf": "PDFにエクスポート",
+    "resumen": "ダッシュボードの概要"
+  },
+  "mensajes": {
+    "cargando": "読み込み中...",
+    "sin_datos": "表示できるデータがありません。",
+    "ruta_no_encontrada": "データパスが見つかりません: {ruta}",
+    "uploads_no_data": "アップロードデータは保存されていますが、読み込めませんでした。ロードを再開します。",
+    "error_ventas": "売上データを読み込めませんでした。",
+    "error_inventario": "在庫データを読み込めませんでした。",
+    "error_productividad": "生産性データを読み込めませんでした。"
+  }
+
+  ,"onboarding": {
+    "bienvenida": "👋 ようこそ！まずは売上ファイルをアップロードしてください。",
+    "instruccion": "Excel（.xlsx）またはCSVファイルをここにドラッグしてください。サンプルデータもお試しいただけます。",
+    "usar_ejemplo": "ファイルがない場合は、サンプルデータを試す"
+  },
+  "uploader": {
+    "prompt": "📂 Excelファイルをここにドラッグするか、クリックして選択してください",
+    "select_tipo": "このファイルはどの種類のデータですか？",
+    "map_instruccion": "予期した列が見つからない場合は、どの列が何に対応するか教えてください：",
+    "map_field": "'{field}'に対応する列を選択"
+  },
+  "actions": {
+    "processing": "ファイルを処理しています... しばらくお待ちください",
+    "upload_confirm": "確認してアップロード",
+    "upload_success": "ファイルが正常にアップロードされました",
+    "reset": "別のファイルをアップロード",
+    "restart": "🔄 アプリを再起動",
+    "restarting": "🔄 再度アップロードを開始しています..."
+  },
+  "errores": {
+    "file_invalid": "このファイルは開けませんでした。Excel (.xlsx) または有効なCSVファイルであることを確認してください。",
+    "missing_column": "必要な列が見つかりませんでした。マッピング機能を使って指定してください。",
+    "unhandled_title": "問題が発生しました",
+    "unhandled_message": "予期しないエラーが発生しました。アプリを再起動するか、もう一度お試しください。それでも問題が続く場合はサポートに連絡してください。"
+  }
+  ,
+  "empresa": {
+    "nombre": "会社名",
+    "logo": "ロゴ"
+  },
+  "alertas": {
+    "stock_minimo": "最小在庫"
+  },
+  "fuente_datos": {
+    "tipo": "データソースの種類",
+    "ruta": "データパス",
+    "sqlite": "SQLite"
+  },
+  "refresco": {
+    "intervalo_minutos": "間隔（分）"
+  },
+  "idioma": "言語",
+  "idioma_default": "ja",
+  "theme": "テーマ",
+  "uploads": "アップロード",
+  "ventas_df": "ventas_df",
+  "inventario_df": "inventario_df",
+  "productividad_df": "productividad_df",
+  "valor": "値",
+  "delta": "差分",
+  "inf": "∞",
+  "Arial": "Arial",
+  "use_example_data": "サンプルデータを使用",
+  ".": "."
+  ,
+  "empleado": "従業員",
+  "fecha_inicio": "開始日",
+  "fecha_fin": "終了日",
+  "intervalo_minutos": "間隔（分）",
+  "logo": "ロゴ",
+  "nombre": "名前",
+  "ruta": "パス",
+  "sqlite": "SQLite",
+  "stock_minimo": "最小在庫",
+  "tipo": "種類"
+}

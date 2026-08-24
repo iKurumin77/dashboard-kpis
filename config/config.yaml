@@ -1,0 +1,14 @@
+empresa:
+  nombre: "Empresa Ejemplo S.A."
+
+idioma_default: "es"
+
+fuente_datos:
+  tipo: "excel"          # opciones soportadas: excel, csv
+  ruta: "data/ejemplo"
+
+alertas:
+  stock_minimo: 10
+
+refresco:
+  intervalo_minutos: 5

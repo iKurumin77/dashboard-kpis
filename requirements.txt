@@ -1,0 +1,7 @@
+streamlit==1.38.0
+pandas>=2.0
+plotly>=5.0
+PyYAML>=6.0
+openpyxl>=3.0
+fpdf2>=2.7
+streamlit-option-menu>=0.3.0
